@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@500&family=Lato&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+}
+
+body{
+   height: 100vh;
+   background: linear-gradient(120deg, #3bff8dd8, rgb(123, 123, 244) );
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#relogio{
+   background-color: rgb(55, 55, 55);
+   box-shadow: 5px 4px 20px rgb(70, 69, 69);
+   color: whitesmoke;
+   border-radius: 1rem;
+   width: 17rem;
+   height: 10rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#relogio span{
+   font-size: 20px;
+}
+
+#relogio div{
+   margin: .5rem;
+}
